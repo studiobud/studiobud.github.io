@@ -671,11 +671,11 @@ aside.cta-quote span.quote {
   background-size: cover;
   -o-background-size: cover;
   padding: 50px 55px;
-  text-align: center;
+    text-align: left;
+
 }
 .portfolio-carousel .item .project-details {
-  padding: 0;
-}
+  padding: 0;}
 .portfolio-carousel .item .project-details .project-name {
   display: block;
   font-size: 40px;
@@ -684,11 +684,29 @@ aside.cta-quote span.quote {
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 900;
   text-transform: uppercase;
+  text-shadow: 2px 2px 5px black;
+
 }
 .portfolio-carousel .item .project-details .project-description {
   display: block;
   font-size: 18px;
   line-height: 18px;
+  text-shadow: 2px 2px 5px black;
+
+}
+.portfolio-carousel .item .project-details .project-description2 {
+  display: block;
+  font-size: 18px;
+  font-style: italic;
+  padding-top: 10px;
+  text-shadow: 2px 2px 5px black;
+
+}
+.portfolio-carousel .item .project-details .project-brand {
+  width: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
 }
 .portfolio-carousel .item .device-container {
   padding: 25px;
@@ -724,7 +742,7 @@ aside.cta-quote span.quote {
 .portfolio-carousel .owl-controls .owl-next {
   right: 0;
 }
-@media (min-width: 992px) {
+@media (min-width: 992px) { 
   .portfolio-carousel .item {
     padding: 155px 55px 155px;
     text-align: left;

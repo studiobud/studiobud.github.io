@@ -904,7 +904,7 @@ aside.cta-quote span.quote {
   border-color: #5CB85C;
 }
 #portfoliolist .mix {
-  width: 23%;
+  width: 14.5%;
   margin: 1%;
   display: none;
   float: left;
@@ -925,10 +925,10 @@ aside.cta-quote span.quote {
   -moz-transition: all 0.5s;
   transition: all 0.5s;
 }
-#portfoliolist .mix .portfolio-wrapper img:hover {
+/*#portfoliolist .mix .portfolio-wrapper img:hover {
   -webkit-filter: grayscale(1);
   filter: grayscale(1);
-}
+}*/
 #portfoliolist .mix .portfolio-wrapper .caption {
   position: absolute;
   width: 100%;
@@ -965,7 +965,7 @@ aside.cta-quote span.quote {
 /*  #Mobile (Portrait) - Note: Design for a width of 320px */
 @media only screen and (max-width: 767px) {
   #portfoliolist .mix {
-    width: 48%;
+    width: 43%;
     margin: 1%;
   }
 }

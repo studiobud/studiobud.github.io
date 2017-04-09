@@ -914,7 +914,6 @@ aside.cta-quote span.quote {
   overflow: hidden;
   position: relative !important;
   background: #222;
-  cursor: pointer;
 }
 #portfoliolist .mix .portfolio-wrapper img {
   max-width: 100%;
